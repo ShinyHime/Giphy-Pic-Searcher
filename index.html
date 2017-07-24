@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animal Picture Searcher</title>
+
+  <!-- BOOTSTRAP LINK -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- JQUERY LINK -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <section id="searchGo" class="hello">
+    <form id="picForm">
+      <label for="picInput">Animal Picture Search</label>
+      <input type="text" id="picInput" placeholder="ex: bat...">
+        <!-- Button triggers new thing to be added -->
+        <input id="addPic" class="btn btn-primary" type="submit" value="SUBMIT">
+      </form>
+
+    </form>
+  </section>
+
+  <section id="main">
+    <div id="buttonsGo" class=""></div>
+
+    <div class="container">
+      <div id="picsGo" class="row"></div>
+    </div>
+  </section>
+
+  <script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
